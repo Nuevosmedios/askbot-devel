@@ -35,7 +35,7 @@ from django.views.decorators import csrf
 from askbot import exceptions as askbot_exceptions
 from askbot import forms
 from askbot import models
-from askbot.models import signals
+from askbot.models import signals, Group
 from askbot.conf import settings as askbot_settings
 from askbot.utils import decorators
 from askbot.utils.forms import format_errors
@@ -232,6 +232,9 @@ def ask(request):#view used to ask a new question
             post_privately = form.cleaned_data['post_privately']
             group_id = form.cleaned_data.get('group_id', None)
             language = form.cleaned_data.get('language', None)
+            if group_id:
+                #group_name = Group.objects.get(id=group_id)
+                tagnames = ' '.join([tagnames, 'cats', str(group_id)])
 
             if request.user.is_authenticated():
                 drafts = models.DraftQuestion.objects.filter(
