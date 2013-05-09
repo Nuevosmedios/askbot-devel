@@ -33,6 +33,12 @@ msgstr "Mensaje"
 msgid "[private]"
 msgstr "[privado]"
 
+msgid "keep private within your groups"
+msgstr "quiero que esta pregunta sea visible solo en mis grupos"
+
+msgid "Please enter your question"
+msgstr "Por favor ingresa tu pregunta"
+
 #~ msgid "Sorry, but anonymous visitors cannot access this function"
 #~ msgstr ""
 #~ "Lo sentimos, pero los usuarios anónimos no pueden acceder a esta función"
