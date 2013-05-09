@@ -39,6 +39,16 @@ msgstr "quiero que esta pregunta sea visible solo en mis grupos"
 msgid "Please enter your question"
 msgstr "Por favor ingresa tu pregunta"
 
+msgid "title must be > %d character"
+msgid_plural "title must be > %d characters"
+msgstr[0] "el título debe contener mas de %d caracter"
+msgstr[1] "el título debe contener mas de %d caracteres"
+
+msgid "answer must be > %d character"
+msgid_plural "answer must be > %d characters"
+msgstr[0] "la respuesta debe contener mas de %d caracter"
+msgstr[1] "la respuesta debe contener mas de %d caracteres"
+
 #~ msgid "Sorry, but anonymous visitors cannot access this function"
 #~ msgstr ""
 #~ "Lo sentimos, pero los usuarios anónimos no pueden acceder a esta función"
@@ -66,11 +76,6 @@ msgstr "Por favor ingresa tu pregunta"
 
 #~ msgid "please enter a descriptive title for your question"
 #~ msgstr "por favor ingresa un título descriptivo para tu pregunta"
-
-#~ msgid "title must be > %d character"
-#~ msgid_plural "title must be > %d characters"
-#~ msgstr[0] "el título debe contener mas de %d caracter"
-#~ msgstr[1] "el título debe contener mas de  %d caracteres"
 
 #~ msgid "The title is too long, maximum allowed size is %d characters"
 #~ msgstr ""
